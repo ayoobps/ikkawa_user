@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           '/login': (context) => const LoginScreen(),
           '/otpverification': (context) => const OtpVerificationScreen(isRegisteredNumber: false,),
           '/register': (context) => RegisterScreen(),
-          '/food': (context) => const FoodScreen(),
+          '/food': (context) => FoodScreen(),
         },
       ),
     );
